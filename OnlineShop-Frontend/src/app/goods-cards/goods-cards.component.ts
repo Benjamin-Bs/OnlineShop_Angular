@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-goods-cards',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './goods-cards.component.css'
 })
 export class GoodsCardsComponent {
+
+  @Input() currentId: number;
+
+  constructor() {
+    this.currentId = 0;
+  }
 
 }

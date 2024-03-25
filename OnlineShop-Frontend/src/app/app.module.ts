@@ -8,13 +8,17 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ShoppingCardComponent } from './shopping-card/shopping-card.component';
 import { GoodsCardsComponent } from './goods-cards/goods-cards.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ShoppingCardComponent,
-    GoodsCardsComponent
+    GoodsCardsComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
