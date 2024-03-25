@@ -6,11 +6,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ShoppingCardComponent } from './shopping-card/shopping-card.component';
+import { GoodsCardsComponent } from './goods-cards/goods-cards.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    ShoppingCardComponent,
+    GoodsCardsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,11 @@
-<app-navbar/>
+<app-navbar />
 <div class="container">
-    <p>Hellox</p>
+    <p>Shop</p>
+    <div class="row">
+        <div class="col-sm" *ngFor="let item of [1,2,3,4,5]">
+            <div>
+                <app-goods-cards />
+            </div>
+        </div>
+    </div>
 </div>
