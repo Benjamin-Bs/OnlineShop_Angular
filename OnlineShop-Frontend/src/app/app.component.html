@@ -1,13 +1,6 @@
 <app-navbar />
-<div class="container">
-    <p>Shop</p>
-    <div class="row">
-        <div class="col-sm" *ngFor="let item of [1,2,3,4,5]">
-            <div>
-                <app-goods-cards [currentId]="item" />
-            </div>
-        </div>
-    </div>
+<div>
+    <router-outlet />
 </div>
-<router-outlet />
-
+<br />
+<app-footer />

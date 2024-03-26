@@ -10,6 +10,9 @@ import { ShoppingCardComponent } from './shopping-card/shopping-card.component';
 import { GoodsCardsComponent } from './goods-cards/goods-cards.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { HomeComponent } from './home/home.component';
+import { ProductsComponent } from './products/products.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { RegisterComponent } from './register/register.component';
     ShoppingCardComponent,
     GoodsCardsComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    HomeComponent,
+    ProductsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
